@@ -47,6 +47,7 @@ html {
 
 body {
     /* Set font family to connect it to the imported google fonts */
+
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
@@ -54,6 +55,9 @@ body {
     background-image: url(../src/assets/pipes.webp);
     background-color: var(--color-bg);
     background-blend-mode: multiply;
+    margin-left:1rem;
+    margin-right:1rem;
+    
     /* opacity: 1; */
 }    
 
@@ -75,13 +79,15 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
+
 }
 
 /* The child combinator > applied only to the elements that are children of the first element*/
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light)
+    color: var(--color-light);
 }
 
 section > h2 {
