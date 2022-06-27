@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import GitHubCalendar from "react-github-calendar";
+// import GitHubCalendar from "react-github-calendar";
 import NBACK from "../../assets/Portfolio/n-Back.png";
 
 const Portfolio = () => {
@@ -8,7 +8,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      <GitHubCalendar username="stephanduval" blockRadius="15" />
+      {/* <GitHubCalendar username="stephanduval" blockRadius="15" /> */}
 
       <div className="container portfolio__container">
         <article className="portfolio__item">
