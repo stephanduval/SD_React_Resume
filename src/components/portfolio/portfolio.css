@@ -1,3 +1,5 @@
-.styles_block__1oBAV {
-    background-color: black;
-}
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repreat(3,1fr);
+    gap: 2.5rem;
+} 

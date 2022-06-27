@@ -22,6 +22,61 @@ const Portfolio = () => {
           <a href="https://github.com/stephanduval" target="blank">
             Github
           </a>
+          <a
+            href="https://dashboard.heroku.com/apps/n-back-experiment"
+            className="btn btn-primary"
+            target="blank"
+          >
+            Live Demo
+          </a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img
+              src={NBACK}
+              alt="annes Hepner Cognitive Reappraisal and n-Back Experiment"
+            ></img>
+          </div>
+          <h3>Hannes Hepner Cognitive Reappraisal & N-Back ExpeNriment</h3>
+          <a href="https://github.com/stephanduval" target="blank">
+            Github
+          </a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img
+              src={NBACK}
+              alt="annes Hepner Cognitive Reappraisal and n-Back Experiment"
+            ></img>
+          </div>
+          <h3>Hannes Hepner Cognitive Reappraisal & N-Back ExpeNriment</h3>
+          <a href="https://github.com/stephanduval" target="blank">
+            Github
+          </a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img
+              src={NBACK}
+              alt="annes Hepner Cognitive Reappraisal and n-Back Experiment"
+            ></img>
+          </div>
+          <h3>Hannes Hepner Cognitive Reappraisal & N-Back ExpeNriment</h3>
+          <a href="https://github.com/stephanduval" target="blank">
+            Github
+          </a>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img
+              src={NBACK}
+              alt="annes Hepner Cognitive Reappraisal and n-Back Experiment"
+            ></img>
+          </div>
+          <h3>Hannes Hepner Cognitive Reappraisal & N-Back ExpeNriment</h3>
+          <a href="https://github.com/stephanduval" target="blank">
+            Github
+          </a>
         </article>
       </div>
     </section>
