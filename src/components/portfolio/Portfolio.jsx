@@ -11,9 +11,6 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div> className="portfolio__item-image"</div>
           <h3>This is a portfolio title</h3>
-          <a href="https"
-
-
         </article>
       </div>
       <GitHubCalendar username="stephanduval" blockRadius="15" />
