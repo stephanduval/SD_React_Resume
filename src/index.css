@@ -64,7 +64,7 @@ body {
 
 /*  ================ GENERAL STYLES ================ */
 
-. container {
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
@@ -99,7 +99,7 @@ section > h2 {
 }
 
 a {
-    color: var)var(--color-primary);
+    color: var(--color-primary);
     transition: var(--transition);
 
 }

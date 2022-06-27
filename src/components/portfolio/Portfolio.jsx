@@ -9,7 +9,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         <article className="portfolio__item">
-          <div> className="portfolio__item-image"</div>
+          <div className="portfolio__item-image"></div>
           <h3>This is a portfolio title</h3>
         </article>
       </div>
