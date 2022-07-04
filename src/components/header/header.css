@@ -2,11 +2,13 @@ header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
+    /* background-color: aliceblue; */
+    
 }
 
 .header__container {
     text-align: center;
-    height: 100%;
+  
     position: relative;
 
 }
@@ -75,7 +77,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        width: var(--container-width-md);
+    
         height: 64vh;
         /* background: red; */
 
@@ -83,7 +85,7 @@ header {
     }
 
 
-    sectiom {
+    section {
         margin-top: 6rem;
     }
 }
@@ -92,7 +94,7 @@ header {
 
 @media screen and (max-width: 600px) {
     header {
-        width: var(--container-width-sm);
+
         height: 100vh;
         /* background: green; */
     }
@@ -102,7 +104,7 @@ header {
     }
 
 
-    sectiom > h2 {
+    section > h2 {
         margin-top: 2rem;
     }
 }

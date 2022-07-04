@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    /* background-color: aliceblue; */
+
 
 
 }
@@ -16,7 +18,7 @@
 }
 
 .about__me {
-    justify-self: center;
+    justify-self: right;
 
 }
 
@@ -39,7 +41,6 @@
     grid-template-columns: repeat(3,1fr);
     gap: 1.5rem;
     margin: .5rem;
-    padding-right: 7rem;
 
 }
 
@@ -91,9 +92,11 @@
     .about__container {
          grid-template-columns: 1fr;
          gap: 0;
+
         }
 
-        .about__me {
+        .about__me {         
+
             justify-self: center;
         
         }
@@ -117,8 +120,11 @@
 
 @media screen and (max-width: 600px) {
 
-    .about__me {
-        justify-self: center;
+    .about__cards {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1.5rem;
+        margin: .5rem;
     
     }
 
