@@ -40,10 +40,12 @@ l
  .portfolio__item-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
  }
 
 .portfolio__GitHub-link {
     margin: auto;
+    margin-right: 0.5em;
 }
 
 

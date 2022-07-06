@@ -15,21 +15,23 @@ footer a {
 .footer__logo {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+    margin-bottom: 0.2rem;
     display: inline-block;
 }
+
 
 .permalinks {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 0.35rem;
 }
 
 .footer__socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .footer__socials a {
@@ -63,10 +65,10 @@ footer a {
  .permalinks {
     flex-direction: column;
     gap: 1.5rem;
- }
+   }
 
  .footer__socials {
-    margin-bottom: 2.6rem;
+    margin-bottom: 1.6rem;
 
  }
 
