@@ -2,9 +2,36 @@ import React from "react";
 import { MdEmail } from "react-icons/md";
 import { SiMessenger } from "react-icons/si";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
+
 import "./contact.css";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_yie05zp",
+        "template_iwb6c6y",
+        form.current,
+        "user_NNDZyakWivAP55hqmqiwe"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get in Touch</h5>
@@ -38,7 +65,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"

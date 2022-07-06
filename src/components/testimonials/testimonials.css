@@ -40,7 +40,7 @@
 @media screen and (max-width: 1024px) {
 
     .container.testimonials__container {
-        width: 60%;
+        grid-template-columns: 1fr;
     }
 
 }
@@ -51,10 +51,20 @@
  @media screen and (max-width: 600px) {
  
     .container.testimonials__container {
+        grid-template-columns: 1fr;
         width: var(--container-width-sm);
+
     }
-    . .client__review {
+
+    .swiper {
+        grid-template-columns: 1fr;
         width: var(--container-width-sm);
+
+    }
+    .client__review {
+        grid-template-columns: 1fr;
+        width: var(--container-width-sm);
+
     }
 
 }
