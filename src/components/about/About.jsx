@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section id="about">
       <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <div className="section__title">About Me</div>
       <div className="about__container">
         <div className="about__me">
           <div className="about__me__image">
@@ -21,23 +21,43 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <GiIonicColumn className="about__icon" />
-              <h5>Experience</h5>
-              <small>2+ Years As a Developer</small>
-              <small>14+ Years running a profitable web business.</small>
+              <h2>Experience</h2>
+              <br></br>
+              <div div className="containerSmallText">
+                2+ Years As a Developer
+                <br></br>
+                14+ Years running a profitable web business.
+              </div>
             </article>
             <article className="about__card">
               <FaUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>2+ Clients</small>
-              <small>100+ Usersj.</small>
+              <h2>Clients</h2>
+              <br></br>
+              <div className="containerSmallText">
+                <a href="https://www.esnail.ca">eSnail.ca</a> - 14 Year
+                relationship managing their web-based business. Recently
+                expanded and rebranded to{" "}
+                <a href="https://www.mailclerk.com">MailClerk.com</a>
+                <p></p>
+                13,477 User Accounts Created since 2008
+                <br></br>
+                96 Active Users in 2022
+              </div>
             </article>
             <article className="about__card">
               <BiHomeSmile className="about__icon" />
-              <h5>Projects</h5>
-              <small>6 Completed Projects</small>
-              <small>3 Currently in daily use</small>
+              <h2>Projects</h2>
+              <br></br>
+              <div className="containerSmallText">6 Completed Projects</div>
+              <p></p>
+              <h4>3 Currently in daily use:</h4>
+              <br></br>
+              <ul>
+                <li>eSnail.ca</li>
+                <li>MailClerk.com</li>
+              </ul>
             </article>
-            <p>This is a writeup</p>
+            <p>My name is Stephan DuVal. I am a Fullstack Deve</p>
           </div>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

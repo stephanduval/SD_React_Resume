@@ -28,7 +28,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <div className="section__title">Portfolio</div>
       {/* <GitHubCalendar username="stephanduval" blockRadius="15" /> */}
 
       <div className="container portfolio__container">

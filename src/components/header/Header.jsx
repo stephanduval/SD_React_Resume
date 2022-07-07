@@ -9,7 +9,9 @@ const Header = () => {
     <header>
       <div className="header__container">
         <h5>Hello I'm</h5>
-        <h1>Stephan DuVal</h1>
+        <div className="shrink__margin-top">
+          <h1>Stephan DuVal</h1>
+        </div>
         <h5 className="text-light">Fullstack Developer</h5>
         <CallToActionBTN />
         <HeaderSocials />
