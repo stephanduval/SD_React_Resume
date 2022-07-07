@@ -18,12 +18,11 @@
     /* :root is a pseudo element that selects everything in html but has a higher preference than css for html only */
 
 :root {
-    --color-bg: #1f1f38;
+    --color-bg: #372979;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
-    --color-black: #000;
     --color-light: rgba(255,255,255,0.6);
 
     --container-width-lg: 75%;
