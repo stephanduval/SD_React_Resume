@@ -4,15 +4,20 @@
     gap: 2.5rem;
     /* background-color: aliceblue; */
 
+
 } 
 
 .portfolio__item {
+   display: grid;
+   grid-template-rows: auto;
     background: var(--color-bg-variant);
     padding: 1.8rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
     max-width: 400px;
+
+    
  }
 
  .portfolio__item:hover {
@@ -22,14 +27,21 @@
  }
 
  .portfolio__item-image {
-    border-radius: 1.5rem;
     overflow: hidden;
+    border-radius: 1.5rem;
+
  }
 
  .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 0rem;
+
  }
-l
+
+ .portfolio__item h4 {
+   margin: 1.2rem 0 2rem;
+   color: var(--color-light);
+}
+
  .portfolio__item-cta {
    display: flex;
    gap: 1rem;
@@ -40,13 +52,18 @@ l
  .portfolio__item-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+    align-self: end;
+    justify-self: end;
 
  }
+
 
 .portfolio__GitHub-link {
     margin: auto;
     margin-right: 0.5em;
 }
+
 
 
 
