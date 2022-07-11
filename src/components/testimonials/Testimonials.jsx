@@ -17,27 +17,7 @@ const testimonialsData = [
     clientTitle:
       "Ph.D. candidate in Neuropsychology and Clinical Research Coordinator",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam dolorum ex, est quos officia modi magnam amet, iure magni molestiae consequatur, nesciunt nostrum. Repellat quos adipisci eveniet aut delectus obcaecati!",
-  },
-  {
-    avatar:
-      "https://media-exp2.licdn.com/dms/image/C5603AQG34g1vpiwAcg/profile-displayphoto-shrink_200_200/0/1615825310390?e=2147483647&v=beta&t=b-lrccbt_UoovkXz4YOLFeYxos67tubPftMNfCFA6og",
-    clientName: " Hepner",
-    clientTitle:
-      "Ph.D. candidate in Neuropsychology and Clinical Research Coordinator",
-
-    review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam dolorum ex, est quos officia modi magnam amet, iure magni molestiae consequatur, nesciunt nostrum. Repellat quos adipisci eveniet aut delectus obcaecati!",
-  },
-  {
-    avatar:
-      "https://media-exp2.licdn.com/dms/image/C5603AQG34g1vpiwAcg/profile-displayphoto-shrink_200_200/0/1615825310390?e=2147483647&v=beta&t=b-lrccbt_UoovkXz4YOLFeYxos67tubPftMNfCFA6og",
-    clientName: "HH",
-    clientTitle:
-      "Ph.D. candidate in Neuropsychology and Clinical Research Coordinator",
-
-    review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam dolorum ex, est quos officia modi magnam amet, iure magni molestiae consequatur, nesciunt nostrum. Repellat quos adipisci eveniet aut delectus obcaecati!",
+      "Stephan is a great person and a good communicator.  He took time to understand the purpose for the software he was developing and worked with me for months to achive my research goals.  He also understands the ethical issues behind research and posting fake testamonials.  He is eagerly awaiting an actual testamonial from Hannes.",
   },
 ];
 
