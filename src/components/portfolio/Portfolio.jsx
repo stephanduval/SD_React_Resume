@@ -12,7 +12,7 @@ const portfolioData = [
     subtitle:
       "This program is used in real-world psychological research.   Designed to run on a server or in React Native.  Built using React & JS",
     github: "https://github.com/stephanduval/HannesHepnerDissertationProject",
-    demo: "https://dashboard.heroku.com/apps/n-back-experiment",
+    demo: "https://n-back-experiment.herokuapp.com/",
     description:
       "An interactable real world study that uses Hooks and Redux to track users as they respond to cognitive tests ",
   },
