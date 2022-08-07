@@ -57,8 +57,9 @@ const About = () => {
                 <li>MailClerk.com</li>
               </ul>
             </article>
-            <p>My name is Stephan DuVal. I am a Fullstack Deve</p>
           </div>
+          <p>My name is Stephan DuVal. I am a Fullstack Developer.</p>
+
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>

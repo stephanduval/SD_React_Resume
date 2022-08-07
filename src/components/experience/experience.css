@@ -1,4 +1,7 @@
 .experience__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
     justify-content: center;
     align-items: center;
     width: 40%;
@@ -9,3 +12,26 @@
     align-items: center;
     margin: auto;
 }
+
+
+/* ============================= Media Queries (Medium Devices) ============================= */
+
+@media screen and (max-width: 1024px) {
+    .experience__container {
+       grid-template-columns: 1fr 1fr;
+       gap: 1.2rem;
+    }
+ 
+ }
+ 
+ 
+ /* ============================= Media Queries (Small Devices) ============================= */
+ 
+ @media screen and (max-width: 600px) {
+ 
+    .experience__container {
+       grid-template-columns: 1fr;
+       gap: 1rem;
+    }
+ 
+ }
